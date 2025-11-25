@@ -1,7 +1,7 @@
 pipeline{
   agent any
   stages{
-    satge('Branch test'){
+    stage('Branch test'){
       steps{
         echo "the branch is ${env.BRANCH_NAME}"
       }
